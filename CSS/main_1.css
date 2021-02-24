@@ -1,0 +1,170 @@
+.mother--container {
+  margin-top: 2vh;
+  margin-right: 10vh;
+}
+/* menu */
+.gray-btn {
+  border: 1px solid rgb(207, 202, 202);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+/* content */
+.container-1 {
+  margin-top: 7vh;
+}
+
+.title-1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+}
+.text-1 {
+  margin-bottom: 7vh;
+}
+/* first-part-footer */
+.footer-text-1 {
+  font-weight: bold;
+  line-height: 60px;
+}
+
+/* second part */
+
+
+.text-2 p {
+  font-weight: 700;
+  top: 20vh;
+}
+.text-2 a {
+  top: 25vh;
+}
+
+ /* third part  */
+.container-2 {
+  margin-top: 90vh;
+}
+
+.search-list {
+  border-left: 2px solid rgb(204, 201, 201);
+}
+.search-list li {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  display: block;
+}
+.links {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 10px;
+  animation: text-appear 30ms 1, animate 100ms linear forwards;
+}
+.links::after {
+  content: "";
+  position: relative;
+  font-size: 14px;
+  font-weight: 100;
+  color: black;
+  margin-left: 10px;
+  float: left;
+}
+.links::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0%;
+  background: transparent;
+  border: 2px solid transparent;
+  left: 10vw;
+}
+.links:hover::after {
+  animation: text-appear 30ms linear forwards;
+}
+.links:hover::before {
+  animation: animate 100ms linear forwards;
+}
+
+/* fourth part */
+.container-4 {
+  padding: 50px;
+  background-color: rgb(241, 234, 234);
+  width: 100vw;
+}
+
+/* fifth */
+.info {
+  height: 30vh;
+  margin-top: 25vh;
+}
+
+.title-3 {
+  font-size: 12px;
+}
+
+/* sixth part */
+.circles {
+  width: 60vw;
+  height: 10vh;
+}
+
+.logo-shape-2 {
+  width: 15vw;
+  height: 7vh;
+  border: 2px solid gray;
+}
+.citata {
+  line-height: 35px;
+  color: gray;
+}
+.name {
+  font-weight: 100;
+}
+
+/* seventh part */
+.box-5 a {
+  margin-top: 50px;
+}
+footer {
+  margin-top: 40vh;
+  background-color: rgba(51, 51, 51, 1);
+}
+.footer--container {
+  height: 50vh;
+  margin-left: 10vw;
+
+}
+.footer-div-1 {
+  width: 20vw;
+}
+.footer-div-2 {
+  margin-left: 50px;
+}
+.footer-div-1 p {
+  margin-left: 15px;
+  font-size: 12px;
+  color: rgba(196, 196, 196, 1);
+
+}
+.footer-div-2 p {
+  margin-bottom: 25px;
+}
+.footer-div-2 li{
+  font-size: 12px;
+  color: rgba(196, 196, 196, 1);
+  font-weight: 100;
+  display: block;
+  line-height: 25px;
+}
+.icons {
+  text-align: center;
+  margin-top: 50vh;
+  bottom: 10px;
+  right: 45vw;
+}
+
+.fab {
+  background-color: white;
+}
+
+
+
+/* background-shapes */

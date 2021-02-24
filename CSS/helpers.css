@@ -1,0 +1,181 @@
+/* helpers */
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;  
+}
+
+
+/* width */
+.w-80vw {
+    width: 80vw;
+}
+.w-40vw {
+    width: 40vw;
+}
+.w-30vw {
+    width: 30vw;
+}
+
+
+/* height */
+.h-100vh {
+    height: 100vh;
+}
+.h-80vh {
+    height: 80vh;
+}
+.h-70vh {
+    height: 70vh;
+}
+.h-40vh {
+    height: 40vh;
+}
+
+
+/* margins*/
+.m-auto {
+    margin: 0 auto;
+}
+/* margin-left */
+.ml-10vw {
+    margin-left: 10vw;
+}
+.ml-5vw {
+    margin-left: 5vw;
+}
+/* margin-right */
+.mr-5vh {
+    margin-right: 5vh;
+}
+/* margin-top */
+.mt-5vh {
+    margin-top: 5vh;
+}
+.mt-10vh {
+    margin-top: 10vh;
+}
+.mt-20vh {
+    margin-top: 20vh;
+}
+/* margin-bottom */
+.mb-2vh {
+    margin-bottom: 2vh;
+}
+
+
+/* paddings */
+.p-5px {
+    padding: 5px;
+}
+.p-15px {
+    padding: 15px;
+}
+
+
+/* colors */
+.unique-color {
+    color: rgb(207, 202, 202);
+}
+.black {
+    color: black;
+}
+.white {
+    color: white;
+}
+.bg-unique-color {
+    background-color: rgb(207, 202, 202);
+}
+
+
+/* floats */
+.f-right {
+    float: right;
+}
+.f-left {
+    float: left;
+}
+
+
+/* positions */
+.p-absolute {
+    position: absolute;
+}
+.p-relative {
+    position: relative;
+}
+
+
+/* displays */
+.in-block {
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+.d-flex {
+    display: flex;
+}
+
+
+/* flex items */
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+
+/* borders */
+.border-solid-transparent {
+    border: 1px solid transparent;
+}
+.border-radius-100 {
+    border-radius: 100%;
+}
+
+
+/* text-align */
+.txt-align-center {
+    text-align: center;
+}
+
+
+/* z */
+.z-1 {
+    z-index: -1;
+}
+.z1 {
+    z-index: 1;
+}
+
+
+/* fonts */
+.fz-14px {
+    font-size: 14px;
+}
+.fz-16px {
+    font-size: 16px;
+}
+.fz-20px {
+    font-size: 20px;
+}
+
+
+/* line height */
+.lnh-25px {
+    line-height: 25px;
+}
+

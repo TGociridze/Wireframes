@@ -1,0 +1,20 @@
+@keyframes text-appear {
+    100% {
+      content: " FbeInsgg perferendis laborum quae aspernatur, reprehenderit at nihil aut, aliquam repellat autem iure mat!";
+      padding: 10px;
+      color: rgb(207, 202, 202);
+    }
+  }
+  @keyframes animate {
+    0% {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+    }
+    100% {
+      width: 0;
+      height: 5%;
+      border-color: black;
+    }
+  }
+  
